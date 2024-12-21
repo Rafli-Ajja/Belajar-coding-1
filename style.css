@@ -1,0 +1,143 @@
+*, 
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+}
+
+.container-navbar{
+ background-color: pink;
+ width: 100%;
+ height: 9vh;
+}
+
+.ul-navbar{
+  display:flex ;
+  height: 100px;
+  justify-content: center;
+  align-content: center;
+}
+
+.li-navbar{
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  font-size:60px ;
+}
+
+.li-navbar:hover{
+  background-color: grey ;
+  transition: .1s ease-in-out;
+  transition-delay: .2s;
+  border-radius: 8px ;
+}
+
+.a-navbar{
+  color: white;
+  text-decoration: none;
+  font-weight; 1000;
+}
+
+.container-content{
+  background-color:lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.a-content{
+  width: 50vh;
+  height: 40vh;
+  background-color: lavender;
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  border-radius: 30px ;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ rgba(0,0,0,0.75);-moz-box-shadow: 10px 10px 5px 0px
+}
+
+.img-content{
+  width: 70%;
+  height: 80%;
+  border-radius: 80px;
+}
+
+.p-content{
+  font-size: 35px;
+}
+
+.container-footer{
+  height: 10vh ;
+  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3-footer{
+  font-size: 45px ;
+}
+
+/* YOUTUBE HTML */
+
+.YT-content{
+  width: 50%;
+  height: 40%;
+}
+
+.containerYT-content{
+  background-color:lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.b-content{
+  width: 50vh;
+  height: 40vh;
+  background-color: WHITE;
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
+}
+
+/* TIKTOK CONTENT */
+.TT-content{
+  width: 50%;
+  height: 60%;
+}
+
+.containerTT-content{
+  background-color:lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.c-content{
+ width:50vh;
+  height: 40vh; 
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 90px;
